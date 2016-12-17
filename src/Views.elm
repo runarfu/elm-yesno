@@ -32,8 +32,8 @@ viewImage answer =
     in
         img
             [ onClick GetNewAnswer
+            , style [ ( "height", "100vmin" ) ]
             , title "Click to get a new answer"
-            , style [ ( "max-height", "100%" ), ( "height", "auto" ) ]
             , src filename
             ]
             []
