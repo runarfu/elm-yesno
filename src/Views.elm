@@ -33,6 +33,7 @@ viewImage answer =
         img
             [ onClick GetNewAnswer
             , title "Click to get a new answer"
+            , style [ ( "max-height", "100%" ), ( "height", "auto" ) ]
             , src filename
             ]
             []
